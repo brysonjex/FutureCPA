@@ -49,10 +49,18 @@ a {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
     font-family: "Playfair Display", serif;
     font-size: 1.4rem;
     font-weight: 600;
     letter-spacing: 0.5px;
+}
+
+.logo img {
+    width: 44px;
+    height: 44px;
 }
 
 .nav-links {
