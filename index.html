@@ -1,9 +1,3 @@
-FutureCPA/
-│
-├── index.html
-├── style.css
-└── Assets/
-    └── 1706744132442.jpg
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,205 +6,166 @@ FutureCPA/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Jex CPA's provides bookkeeping and tax services for small business owners who want clarity, confidence, and peace of mind.">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="page">
+        <!-- HERO SECTION -->
+        <header class="hero" id="top">
+            <nav class="nav">
+                <div class="logo">Jex CPA's</div>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <a class="nav-cta" href="#contact">Free Consult</a>
+            </nav>
 
-    <!-- HERO SECTION -->
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Jex CPA's</h1>
-            <p class="tagline">
-                Helping small business owners feel confident about their books and taxes.
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">Small Business Accounting</p>
+                    <h1>Clear books. Confident decisions. Peace of mind.</h1>
+                    <p class="tagline">
+                        Helping small business owners feel confident about their books and taxes with
+                        proactive bookkeeping, tax planning, and year-round support.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="button primary">Book a Free Consultation</a>
+                        <a href="#services" class="button ghost">View Services</a>
+                    </div>
+                    <div class="hero-proof">
+                        <div>
+                            <span class="proof-title">Reliable Guidance</span>
+                            <span class="proof-subtitle">CPA-led expertise</span>
+                        </div>
+                        <div>
+                            <span class="proof-title">Responsive Support</span>
+                            <span class="proof-subtitle">Fast, friendly communication</span>
+                        </div>
+                        <div>
+                            <span class="proof-title">Modern Tools</span>
+                            <span class="proof-subtitle">Cloud-based workflows</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <p class="card-title">Bookkeeping + Tax Services</p>
+                    <ul>
+                        <li>Monthly bookkeeping + reconciliations</li>
+                        <li>Quarterly tax planning</li>
+                        <li>Year-end tax preparation</li>
+                        <li>Financial reporting dashboards</li>
+                    </ul>
+                    <a href="#contact" class="button secondary">Schedule a Call</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
+            <div class="about-container">
+                <img src="Assets/1706744132442.jpg" alt="Jex CPA portrait" class="profile-photo">
+
+                <div class="about-text">
+                    <p class="eyebrow">About</p>
+                    <h2>Meet your CPA partner</h2>
+                    <p>
+                        Hi, I’m the CPA behind Jex CPA's. I work with small business owners who are
+                        overwhelmed by bookkeeping and confused by taxes.
+                    </p>
+                    <p>
+                        My goal is to make your financials feel clear, organized, and manageable —
+                        without judgment or unnecessary jargon. You focus on running your business,
+                        and I’ll help take care of the numbers.
+                    </p>
+                    <div class="about-highlights">
+                        <div>
+                            <h3>Clarity</h3>
+                            <p>Know where you stand every month with clean, accurate records.</p>
+                        </div>
+                        <div>
+                            <h3>Confidence</h3>
+                            <p>Make decisions backed by financial reporting you can trust.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services" class="section light">
+            <div class="section-heading">
+                <p class="eyebrow">Services</p>
+                <h2>Everything you need to stay compliant and in control</h2>
+                <p class="section-subtitle">
+                    Whether you need monthly support or full-service tax coverage, we customize
+                    a plan that fits your business.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Monthly Bookkeeping</h3>
+                    <p>
+                        Accurate, up-to-date records with reconciliations and categorized expenses so
+                        you always know where your money is going.
+                    </p>
+                    <span class="service-meta">Best for growing businesses</span>
+                </div>
+
+                <div class="service-card">
+                    <h3>Tax Preparation</h3>
+                    <p>
+                        Individual and small business tax preparation with clear communication and no
+                        surprises.
+                    </p>
+                    <span class="service-meta">Personal + business returns</span>
+                </div>
+
+                <div class="service-card">
+                    <h3>Tax Planning</h3>
+                    <p>
+                        Quarterly check-ins to forecast liabilities, maximize deductions, and plan for
+                        future growth.
+                    </p>
+                    <span class="service-meta">Proactive strategy sessions</span>
+                </div>
+            </div>
+
+            <p class="pricing-note">
+                Pricing varies based on your needs. Contact me to discuss your situation.
             </p>
-            <a href="#contact" class="button">Book a Free Consultation</a>
-        </div>
-    </header>
+        </section>
 
-    <!-- ABOUT SECTION -->
-    <section id="about" class="section">
-        <div class="about-container">
-            <img src="Assets/1706744132442.jpg" alt="Jex CPA portrait" class="profile-photo">
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section">
+            <div class="contact-card">
+                <div>
+                    <p class="eyebrow">Contact</p>
+                    <h2>Let’s simplify your finances.</h2>
+                    <p>
+                        Interested in working together or have questions? Reach out to schedule
+                        a free consultation.
+                    </p>
+                </div>
 
-            <div class="about-text">
-                <h2>About Me</h2>
-                <p>
-                    Hi, I’m the CPA behind Jex CPA's. I work with small business owners who are
-                    overwhelmed by bookkeeping and confused by taxes.
-                </p>
-                <p>
-                    My goal is to make your financials feel clear, organized, and manageable —
-                    without judgment or unnecessary jargon. You focus on running your business,
-                    and I’ll help take care of the numbers.
-                </p>
+                <div class="contact-box">
+                    <p><strong>Email:</strong> yourname@email.com</p>
+                    <p><strong>Location:</strong> Remote services available</p>
+                    <p><strong>Availability:</strong> Weekday appointments</p>
+                    <a href="mailto:yourname@email.com" class="button primary">Email Me</a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- SERVICES SECTION -->
-    <section id="services" class="section light">
-        <h2>Services</h2>
-
-        <div class="services-grid">
-            <div class="service-card">
-                <h3>Monthly Bookkeeping</h3>
-                <p>
-                    Ongoing bookkeeping to keep your records accurate, up to date,
-                    and ready for tax time.
-                </p>
-            </div>
-
-            <div class="service-card">
-                <h3>Tax Preparation</h3>
-                <p>
-                    Individual and small business tax preparation with clear communication
-                    and no surprises.
-                </p>
-            </div>
-        </div>
-
-        <p class="pricing-note">
-            Pricing varies based on your needs. Contact me to discuss your situation.
-        </p>
-    </section>
-
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="section">
-        <h2>Get in Touch</h2>
-        <p>
-            Interested in working together or have questions?
-            Reach out to schedule a free consultation.
-        </p>
-
-        <div class="contact-box">
-            <p><strong>Email:</strong> yourname@email.com</p>
-            <p><strong>Location:</strong> Remote services available</p>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 Jex CPA's. All rights reserved.</p>
-    </footer>
-
+        <!-- FOOTER -->
+        <footer>
+            <p>© 2026 Jex CPA's. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    color: #2c2c2c;
-    background-color: #ffffff;
-}
-
-/* HERO */
-.hero {
-    background-color: #1f3c58;
-    color: #ffffff;
-    padding: 80px 20px;
-    text-align: center;
-}
-
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.tagline {
-    font-size: 1.2rem;
-    margin-bottom: 25px;
-}
-
-.button {
-    background-color: #f4b400;
-    color: #1f3c58;
-    padding: 12px 25px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-.button:hover {
-    opacity: 0.9;
-}
-
-/* SECTIONS */
-.section {
-    padding: 60px 20px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.section h2 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.light {
-    background-color: #f6f8fa;
-}
-
-/* ABOUT */
-.about-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 40px;
-}
-
-.profile-photo {
-    width: 250px;
-    border-radius: 10px;
-}
-
-.about-text {
-    flex: 1;
-}
-
-/* SERVICES */
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-bottom: 20px;
-}
-
-.service-card {
-    background: white;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
-
-.pricing-note {
-    text-align: center;
-    font-style: italic;
-}
-
-/* CONTACT */
-.contact-box {
-    text-align: center;
-    margin-top: 20px;
-}
-
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9rem;
-    background-color: #1f3c58;
-    color: #ffffff;
-}
-
-/* MOBILE */
-@media (max-width: 700px) {
-    .about-container {
-        flex-direction: column;
-        text-align: center;
-    }
-}
