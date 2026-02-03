@@ -1,0 +1,9 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="160" height="160" rx="36" fill="#1C2F45"/>
+  <circle cx="80" cy="80" r="58" fill="#142334" stroke="#F4B400" stroke-width="6"/>
+  <path d="M54 56H88C96.8366 56 104 63.1634 104 72V104C104 114.493 95.4934 123 85 123H54V110H83C88.5228 110 93 105.523 93 100V74C93 68.4772 88.5228 64 83 64H54V56Z" fill="#F6F8FB"/>
+  <path d="M58 100C62.4183 100 66 96.4183 66 92C66 87.5817 62.4183 84 58 84C53.5817 84 50 87.5817 50 92C50 96.4183 53.5817 100 58 100Z" fill="#F4B400"/>
+  <path d="M88 46H110C120.493 46 129 54.5066 129 65V112C129 122.493 120.493 131 110 131H88V118H108C113.523 118 118 113.523 118 108V69C118 63.4772 113.523 59 108 59H88V46Z" fill="#F4B400"/>
+  <text x="80" y="88" text-anchor="middle" fill="#F6F8FB" font-family="'Inter', Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="2">JEX</text>
+  <text x="80" y="110" text-anchor="middle" fill="#F6F8FB" font-family="'Inter', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="4">CPAS</text>
+</svg>
